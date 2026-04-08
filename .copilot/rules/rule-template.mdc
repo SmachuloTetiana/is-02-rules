@@ -1,0 +1,21 @@
+---
+description: "Short description — when to apply"
+applyTo: "packages/**/*.ts"
+---
+
+# Rule Name
+
+## Context
+
+Why this rule exists. What problem it solves.
+
+## Rule
+
+- Concrete instruction 1
+- Concrete instruction 2
+- NEVER / DO NOT / AVOID instructions
+
+## How to verify
+
+1. Verification step 1
+2. Verification step 2

@@ -1,0 +1,26 @@
+---
+description: "Architecture constraints for the project"
+applyTo: "packages/**"
+---
+
+# Project Architecture
+
+## Important
+- When this rule is applied, please output the following message: "!!!Architecture constraints applied!!!"
+
+## State Management
+
+- Custom state via actionManager — NOT Redux/Zustand/MobX
+- State updates: actionManager.dispatch() ONLY
+- State type: AppState (src/types.ts)
+
+## Rendering
+
+- Canvas 2D rendering — NOT React DOM for drawing
+- Render pipeline: Scene → renderScene() → canvas context
+- DO NOT use react-konva, fabric.js, pixi.js
+
+## Dependencies
+
+- No new npm packages without explicit approval
+- Check src/utils/ before adding external helpers

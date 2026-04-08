@@ -1,0 +1,18 @@
+---
+description: "Protected files that should not be modified"
+---
+
+# Protected Files
+
+NEVER modify these files without explicit approval:
+
+- `packages/excalidraw/renderer/renderScene.ts` — render pipeline
+- `packages/excalidraw/data/restore.ts` — file format compatibility
+- `packages/excalidraw/actions/manager.tsx` — action dispatch system
+- `packages/excalidraw/types.ts` — core type definitions
+
+Changes to protected files require:
+
+1. Full understanding of dependencies
+2. Running complete test suite
+3. Manual QA verification
