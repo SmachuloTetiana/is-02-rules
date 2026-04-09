@@ -1,12 +1,14 @@
 ---
 description: "Architecture constraints for the project"
-applyTo: "packages/**"
 ---
 
 # Project Architecture
 
+## Applies to
+`packages/**`
+
 ## Important
-- When this rule is applied, please output the following message: "!!!Architecture constraints applied!!!"
+- When this rule is applied, please output the following message: "✍️ Architecture constraints applied"
 
 ## State Management
 

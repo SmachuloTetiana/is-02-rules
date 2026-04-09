@@ -6,7 +6,7 @@ Refactor the selected code or the file $ARGUMENTS:
 
 1. Read the current implementation
 2. Identify code smells: duplication, deep nesting, large functions
-3. Check .copilot/rules/ for project conventions
+3. Check .github/skills/ for project conventions
 4. Apply refactoring while preserving behavior:
    - Extract functions for reuse
    - Simplify conditionals

@@ -1,9 +1,14 @@
 ---
 description: "Guide for adding new actions via actionManager"
-applyTo: "packages/excalidraw/actions/**"
 ---
 
 # New Action Guide
+
+## Applies to
+`packages/excalidraw/actions/**`
+
+## Important
+- When this rule is applied, output the the following message: "✍️ New Action Guide applied"
 
 ## Context
 

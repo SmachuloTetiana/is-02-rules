@@ -11,4 +11,4 @@ Create a React component named $ARGUMENTS:
 5. Create a colocated test file with basic render test
 6. Follow the patterns from existing components in the same directory
 
-Check .copilot/rules/ for architecture and convention constraints.
+Check .github/skills/ for architecture and convention constraints.

@@ -4,6 +4,10 @@ description: "Protected files that should not be modified"
 
 # Protected Files
 
+
+## Important
+- When this rule is applied, output the the following message: "✍️ Protected files applied"
+
 NEVER modify these files without explicit approval:
 
 - `packages/excalidraw/renderer/renderScene.ts` — render pipeline

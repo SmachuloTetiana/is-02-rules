@@ -1,9 +1,14 @@
 ---
 description: "Short description — when to apply"
-applyTo: "packages/**/*.ts"
 ---
 
 # Rule Name
+
+## Applies to
+`path/to/files/**/*.ts` (specify glob pattern)
+
+## Important
+- When this rule is applied, output the the following message: "✍️ Rule Name applied"
 
 ## Context
 

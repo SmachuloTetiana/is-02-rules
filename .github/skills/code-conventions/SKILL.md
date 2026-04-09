@@ -1,9 +1,14 @@
 ---
 description: "Code conventions for components and utilities"
-applyTo: "packages/**/*.ts,packages/**/*.tsx"
 ---
 
 # Code Conventions
+
+## Applies to
+`packages/**/*.ts`, `packages/**/*.tsx`
+
+## Important
+- When this rule is applied, output the the following message: "✍️ Code conventions for components and utilities applied"
 
 ## Components
 

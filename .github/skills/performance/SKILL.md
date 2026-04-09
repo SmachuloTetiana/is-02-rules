@@ -1,9 +1,14 @@
 ---
 description: "Performance optimizations for rendering and React"
-applyTo: "packages/**/*.tsx,packages/**/*.ts"
 ---
 
 # Performance Guidelines
+
+## Applies to
+`packages/**/*.tsx`, `packages/**/*.ts`
+
+## Important
+- When this rule is applied, output the the following message: "✍️ Performance optimizations for rendering and React applied"
 
 ## Canvas Rendering
 
