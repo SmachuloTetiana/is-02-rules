@@ -1,0 +1,32 @@
+.coordinates-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  font-size: 0.8125rem;
+  font-family: var(--font-family-monospace, monospace);
+  background: var(--color-surface-low);
+  border-radius: var(--border-radius-md);
+
+  &--empty {
+    color: var(--color-gray-50);
+    font-style: italic;
+  }
+
+  &__group {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  &__label {
+    color: var(--color-gray-50);
+    font-weight: 500;
+    min-width: 1.25rem;
+  }
+
+  &__value {
+    color: var(--color-on-surface);
+    font-weight: 600;
+  }
+}
